@@ -1,0 +1,1213 @@
+<7>[   47.054534 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   47.054718 s] Dump buffer ff681000 size 8:
+<7>[   47.054779 s]
+<7>[   47.054809 s]   9 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   47.054870 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   47.055541 s]
+<4>[   47.055572 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   49.102325 s]
+<7>[   49.102386 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   49.102447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   49.102508 s]
+<7>[   49.102539 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   49.102600 s] Dump buffer ff681000 size 8:
+<7>[   49.102661 s]
+<7>[   49.102691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   49.102752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   49.103576 s]
+<4>[   49.103576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   51.150329 s]
+<7>[   51.150390 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   51.150451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   51.150512 s]
+<7>[   51.150543 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   51.150604 s] Dump buffer ff681000 size 8:
+<7>[   51.150665 s]
+<7>[   51.150695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   51.150756 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   51.151580 s]
+<4>[   51.151580 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   52.305023 s]
+<7>[   52.305114 s] 1156 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[   52.305175 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[   53.198333 s]
+<7>[   53.198394 s] 893 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   53.198455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   53.198486 s]
+<7>[   53.198547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   53.198608 s] Dump buffer ff681000 size 8:
+<7>[   53.198638 s]
+<7>[   53.198699 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   53.198730 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   53.199554 s]
+<4>[   53.199584 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   55.246337 s]
+<7>[   55.246398 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   55.246459 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   55.246520 s]
+<7>[   55.246551 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   55.246612 s] Dump buffer ff681000 size 8:
+<7>[   55.246673 s]
+<7>[   55.246704 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   55.246765 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   55.247558 s]
+<4>[   55.247558 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   57.294311 s]
+<7>[   57.294372 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   57.294433 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   57.294494 s]
+<7>[   57.294525 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   57.294586 s] Dump buffer ff681000 size 8:
+<7>[   57.294647 s]
+<7>[   57.294677 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   57.294738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   57.295562 s]
+<4>[   57.295562 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   59.342346 s]
+<7>[   59.342376 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   59.342437 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   59.342498 s]
+<7>[   59.342559 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   59.342590 s] Dump buffer ff681000 size 8:
+<7>[   59.342651 s]
+<7>[   59.342681 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   59.342742 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   59.343536 s]
+<4>[   59.343566 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   61.390319 s]
+<7>[   61.390380 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   61.390441 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   61.390502 s]
+<7>[   61.390563 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   61.390625 s] Dump buffer ff681000 size 8:
+<7>[   61.390655 s]
+<7>[   61.390686 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   61.390747 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   61.391540 s]
+<4>[   61.391571 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   63.440338 s]
+<7>[   63.440399 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   63.440460 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   63.440490 s]
+<7>[   63.440551 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   63.440612 s] Dump buffer ff681000 size 8:
+<7>[   63.440643 s]
+<7>[   63.440704 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   63.440734 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   63.441558 s]
+<4>[   63.441558 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   65.487335 s]
+<7>[   65.487365 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   65.487426 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   65.487487 s]
+<7>[   65.487548 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   65.487609 s] Dump buffer ff681000 size 8:
+<7>[   65.487640 s]
+<7>[   65.487701 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   65.487731 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   65.488555 s]
+<4>[   65.488586 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   67.535339 s]
+<7>[   67.535369 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   67.535461 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   67.535614 s]
+<7>[   67.535675 s]   9 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   67.535736 s] Dump buffer ff681000 size 8:
+<7>[   67.535766 s]
+<7>[   67.535827 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   67.535858 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   67.536560 s]
+<4>[   67.536590 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   69.583312 s]
+<7>[   69.583374 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   69.583435 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   69.583496 s]
+<7>[   69.583557 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   69.583587 s] Dump buffer ff681000 size 8:
+<7>[   69.583648 s]
+<7>[   69.583679 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   69.583740 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   69.584533 s]
+<4>[   69.584564 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   71.632324 s]
+<7>[   71.632385 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   71.632446 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   71.632507 s]
+<7>[   71.632537 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   71.632598 s] Dump buffer ff681000 size 8:
+<7>[   71.632659 s]
+<7>[   71.632690 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   71.632751 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   71.633911 s]
+<4>[   71.633941 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   72.305877 s]
+<7>[   72.305938 s] 688 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[   72.305999 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[   73.680328 s]
+<7>[   73.680389 s] 1361 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   73.680450 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   73.680480 s]
+<7>[   73.680541 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   73.680603 s] Dump buffer ff681000 size 8:
+<7>[   73.680633 s]
+<7>[   73.680694 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   73.680755 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   73.681549 s]
+<4>[   73.681549 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   75.727325 s]
+<7>[   75.727386 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   75.727447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   75.727508 s]
+<7>[   75.727539 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   75.727600 s] Dump buffer ff681000 size 8:
+<7>[   75.727661 s]
+<7>[   75.727691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   75.727752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   75.728546 s]
+<4>[   75.728576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   77.775329 s]
+<7>[   77.775390 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   77.775451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   77.775512 s]
+<7>[   77.775543 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   77.775604 s] Dump buffer ff681000 size 8:
+<7>[   77.775665 s]
+<7>[   77.775695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   77.775756 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   77.776580 s]
+<4>[   77.776580 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   79.824340 s]
+<7>[   79.824371 s] 2073 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   79.824432 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   79.824493 s]
+<7>[   79.824554 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   79.824615 s] Dump buffer ff681000 size 8:
+<7>[   79.824645 s]
+<7>[   79.824707 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   79.824737 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   79.825561 s]
+<4>[   79.825561 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   81.871337 s]
+<7>[   81.871368 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   81.871429 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   81.871490 s]
+<7>[   81.871551 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   81.871582 s] Dump buffer ff681000 size 8:
+<7>[   81.871643 s]
+<7>[   81.871673 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   81.871734 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   81.872558 s]
+<4>[   81.872589 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   83.919342 s]
+<7>[   83.919372 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   83.919464 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   83.919494 s]
+<7>[   83.919555 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   83.919616 s] Dump buffer ff681000 size 8:
+<7>[   83.919647 s]
+<7>[   83.919708 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   83.919738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   83.920562 s]
+<4>[   83.920562 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   85.967346 s]
+<7>[   85.967407 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   85.967468 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   85.967529 s]
+<7>[   85.967559 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   85.967620 s] Dump buffer ff681000 size 8:
+<7>[   85.967681 s]
+<7>[   85.967712 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   85.967773 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   85.968566 s]
+<4>[   85.968597 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   88.015319 s]
+<7>[   88.015380 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   88.015441 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   88.015502 s]
+<7>[   88.015533 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   88.015594 s] Dump buffer ff681000 size 8:
+<7>[   88.015655 s]
+<7>[   88.015686 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   88.015747 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   88.016601 s]
+<4>[   88.016632 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   90.063323 s]
+<7>[   90.063385 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   90.063446 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   90.063507 s]
+<7>[   90.063537 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   90.063598 s] Dump buffer ff681000 size 8:
+<7>[   90.063629 s]
+<7>[   90.063690 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   90.063751 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   90.064544 s]
+<4>[   90.064575 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   92.111328 s]
+<7>[   92.111389 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   92.111450 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   92.111511 s]
+<7>[   92.111541 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   92.111602 s] Dump buffer ff681000 size 8:
+<7>[   92.111663 s]
+<7>[   92.111694 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   92.111755 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   92.112548 s]
+<4>[   92.112548 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   92.306762 s]
+<7>[   92.306854 s] 195 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[   92.306884 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[   94.159332 s]
+<7>[   94.159393 s] 1854 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   94.159454 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   94.159484 s]
+<7>[   94.159545 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   94.159606 s] Dump buffer ff681000 size 8:
+<7>[   94.159637 s]
+<7>[   94.159698 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   94.159759 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   94.160552 s]
+<4>[   94.160552 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   96.207336 s]
+<7>[   96.207397 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   96.207458 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   96.207519 s]
+<7>[   96.207550 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   96.207611 s] Dump buffer ff681000 size 8:
+<7>[   96.207672 s]
+<7>[   96.207702 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   96.207763 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   96.208557 s]
+<4>[   96.208587 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[   98.256347 s]
+<7>[   98.256378 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[   98.256469 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[   98.256500 s]
+<7>[   98.256561 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   98.256622 s] Dump buffer ff681000 size 8:
+<7>[   98.256652 s]
+<7>[   98.256713 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[   98.256744 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[   98.257568 s]
+<4>[   98.257598 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  100.303344 s]
+<7>[  100.303405 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  100.303466 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  100.303497 s]
+<7>[  100.303558 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  100.303619 s] Dump buffer ff681000 size 8:
+<7>[  100.303649 s]
+<7>[  100.303710 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  100.303771 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  100.304534 s]
+<4>[  100.304565 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  102.352325 s]
+<7>[  102.352386 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  102.352447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  102.352508 s]
+<7>[  102.352539 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  102.352600 s] Dump buffer ff681000 size 8:
+<7>[  102.352661 s]
+<7>[  102.352691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  102.352752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  102.353576 s]
+<4>[  102.353576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  104.401336 s]
+<7>[  104.401397 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  104.401458 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  104.401489 s]
+<7>[  104.401550 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  104.401611 s] Dump buffer ff681000 size 8:
+<7>[  104.401641 s]
+<7>[  104.401702 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  104.401763 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  104.402557 s]
+<4>[  104.402587 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  106.448333 s]
+<7>[  106.448394 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  106.448455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  106.448516 s]
+<7>[  106.448547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  106.448608 s] Dump buffer ff681000 size 8:
+<7>[  106.448669 s]
+<7>[  106.448699 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  106.448760 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  106.449554 s]
+<4>[  106.449584 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  108.497406 s]
+<7>[  108.497467 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  108.497528 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  108.497589 s]
+<7>[  108.497619 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  108.497680 s] Dump buffer ff681000 size 8:
+<7>[  108.497741 s]
+<7>[  108.497772 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  108.497833 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  108.498565 s]
+<4>[  108.498596 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  110.544342 s]
+<7>[  110.544372 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  110.544433 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  110.544494 s]
+<7>[  110.544555 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  110.544586 s] Dump buffer ff681000 size 8:
+<7>[  110.544647 s]
+<7>[  110.544677 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  110.544738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  110.545532 s]
+<4>[  110.545562 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  112.307617 s]
+<7>[  112.307708 s] 1776 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  112.307769 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  112.592315 s]
+<7>[  112.592376 s] 273 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  112.592437 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  112.592498 s]
+<7>[  112.592529 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  112.592590 s] Dump buffer ff681000 size 8:
+<7>[  112.592651 s]
+<7>[  112.592681 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  112.592742 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  112.593536 s]
+<4>[  112.593566 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  114.641326 s]
+<7>[  114.641387 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  114.641448 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  114.641510 s]
+<7>[  114.641540 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  114.641601 s] Dump buffer ff681000 size 8:
+<7>[  114.641662 s]
+<7>[  114.641693 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  114.641754 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  114.642547 s]
+<4>[  114.642547 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  114.707733 s]
+<7>[  114.707824 s]  68 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  114.707885 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  116.688323 s]
+<7>[  116.688385 s] 1981 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  116.688446 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  116.688507 s]
+<7>[  116.688537 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  116.688598 s] Dump buffer ff681000 size 8:
+<7>[  116.688659 s]
+<7>[  116.688690 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  116.688751 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  116.689544 s]
+<4>[  116.689575 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  118.736328 s]
+<7>[  118.736389 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  118.736450 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  118.736511 s]
+<7>[  118.736541 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  118.736602 s] Dump buffer ff681000 size 8:
+<7>[  118.736663 s]
+<7>[  118.736694 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  118.736755 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  118.737579 s]
+<4>[  118.737609 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  120.784332 s]
+<7>[  120.784362 s] 2073 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  120.784423 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  120.784484 s]
+<7>[  120.784545 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  120.784606 s] Dump buffer ff681000 size 8:
+<7>[  120.784637 s]
+<7>[  120.784667 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  120.784729 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  120.785583 s]
+<4>[  120.785614 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  122.832336 s]
+<7>[  122.832397 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  122.832458 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  122.832489 s]
+<7>[  122.832550 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  122.832611 s] Dump buffer ff681000 size 8:
+<7>[  122.832641 s]
+<7>[  122.832702 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  122.832733 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  122.833587 s]
+<4>[  122.833587 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  124.880340 s]
+<7>[  124.880401 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  124.880462 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  124.880493 s]
+<7>[  124.880554 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  124.880615 s] Dump buffer ff681000 size 8:
+<7>[  124.880645 s]
+<7>[  124.880676 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  124.880737 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  124.881561 s]
+<4>[  124.881591 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  126.928344 s]
+<7>[  126.928405 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  126.928466 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  126.928497 s]
+<7>[  126.928558 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  126.928619 s] Dump buffer ff681000 size 8:
+<7>[  126.928649 s]
+<7>[  126.928710 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  126.928771 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  126.929565 s]
+<4>[  126.929595 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  128.977325 s]
+<7>[  128.977386 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  128.977447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  128.977508 s]
+<7>[  128.977539 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  128.977600 s] Dump buffer ff681000 size 8:
+<7>[  128.977630 s]
+<7>[  128.977691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  128.977752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  128.978576 s]
+<4>[  128.978576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  131.024322 s]
+<7>[  131.024383 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  131.024444 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  131.024505 s]
+<7>[  131.024536 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  131.024597 s] Dump buffer ff681000 size 8:
+<7>[  131.024658 s]
+<7>[  131.024688 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  131.024749 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  131.025756 s]
+<4>[  131.025787 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  133.072326 s]
+<7>[  133.072387 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  133.072448 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  133.072509 s]
+<7>[  133.072540 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  133.072601 s] Dump buffer ff681000 size 8:
+<7>[  133.072662 s]
+<7>[  133.072692 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  133.072753 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  133.073547 s]
+<4>[  133.073577 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  134.708587 s]
+<7>[  134.708679 s] 1625 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  134.708740 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  135.121337 s]
+<7>[  135.121368 s] 424 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  135.121429 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  135.121490 s]
+<7>[  135.121520 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  135.121582 s] Dump buffer ff681000 size 8:
+<7>[  135.121643 s]
+<7>[  135.121673 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  135.121734 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  135.122528 s]
+<4>[  135.122558 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  137.168334 s]
+<7>[  137.168395 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  137.168457 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  137.168640 s]
+<7>[  137.168670 s]   9 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  137.168731 s] Dump buffer ff681000 size 8:
+<7>[  137.168792 s]
+<7>[  137.168823 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  137.168884 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  137.169586 s]
+<4>[  137.169616 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  139.216339 s]
+<7>[  139.216400 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  139.216461 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  139.216522 s]
+<7>[  139.216552 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  139.216613 s] Dump buffer ff681000 size 8:
+<7>[  139.216644 s]
+<7>[  139.216705 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  139.216766 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  139.217559 s]
+<4>[  139.217590 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  141.265319 s]
+<7>[  141.265380 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  141.265441 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  141.265502 s]
+<7>[  141.265533 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  141.265594 s] Dump buffer ff681000 size 8:
+<7>[  141.265655 s]
+<7>[  141.265686 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  141.265747 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  141.266571 s]
+<4>[  141.266601 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  143.314331 s]
+<7>[  143.314392 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  143.314453 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  143.314514 s]
+<7>[  143.314544 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  143.314605 s] Dump buffer ff681000 size 8:
+<7>[  143.314636 s]
+<7>[  143.314697 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  143.314758 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  143.315551 s]
+<4>[  143.315582 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  145.362335 s]
+<7>[  145.362396 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  145.362457 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  145.362487 s]
+<7>[  145.362548 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  145.362609 s] Dump buffer ff681000 size 8:
+<7>[  145.362640 s]
+<7>[  145.362701 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  145.362762 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  145.363555 s]
+<4>[  145.363555 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  147.409332 s]
+<7>[  147.409393 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  147.409454 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  147.409515 s]
+<7>[  147.409545 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  147.409606 s] Dump buffer ff681000 size 8:
+<7>[  147.409667 s]
+<7>[  147.409698 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  147.409759 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  147.410522 s]
+<4>[  147.410552 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  149.457336 s]
+<7>[  149.457397 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  149.457458 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  149.457519 s]
+<7>[  149.457550 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  149.457611 s] Dump buffer ff681000 size 8:
+<7>[  149.457641 s]
+<7>[  149.457702 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  149.457763 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  149.458557 s]
+<4>[  149.458587 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  151.506347 s]
+<7>[  151.506378 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  151.506439 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  151.506500 s]
+<7>[  151.506561 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  151.506622 s] Dump buffer ff681000 size 8:
+<7>[  151.506652 s]
+<7>[  151.506683 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  151.506744 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  151.507904 s]
+<4>[  151.507934 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  153.553314 s]
+<7>[  153.553375 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  153.553436 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  153.553497 s]
+<7>[  153.553527 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  153.553588 s] Dump buffer ff681000 size 8:
+<7>[  153.553649 s]
+<7>[  153.553680 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  153.553741 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  153.554870 s]
+<4>[  153.554901 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  154.709442 s]
+<7>[  154.709503 s] 1156 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  154.709564 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  155.601318 s]
+<7>[  155.601379 s] 893 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  155.601440 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  155.601501 s]
+<7>[  155.601531 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  155.601593 s] Dump buffer ff681000 size 8:
+<7>[  155.601654 s]
+<7>[  155.601684 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  155.601745 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  155.602752 s]
+<4>[  155.602783 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  157.650329 s]
+<7>[  157.650390 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  157.650451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  157.650512 s]
+<7>[  157.650543 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  157.650604 s] Dump buffer ff681000 size 8:
+<7>[  157.650665 s]
+<7>[  157.650695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  157.650756 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  157.651977 s]
+<4>[  157.651977 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  159.697326 s]
+<7>[  159.697387 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  159.697448 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  159.697509 s]
+<7>[  159.697540 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  159.697601 s] Dump buffer ff681000 size 8:
+<7>[  159.697662 s]
+<7>[  159.697692 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  159.697753 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  159.698577 s]
+<4>[  159.698608 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  161.745330 s]
+<7>[  161.745391 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  161.745452 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  161.745483 s]
+<7>[  161.745544 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  161.745605 s] Dump buffer ff681000 size 8:
+<7>[  161.745635 s]
+<7>[  161.745697 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  161.745758 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  161.746551 s]
+<4>[  161.746551 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  163.794342 s]
+<7>[  163.794372 s] 2073 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  163.794433 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  163.794494 s]
+<7>[  163.794555 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  163.794616 s] Dump buffer ff681000 size 8:
+<7>[  163.794647 s]
+<7>[  163.794677 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  163.794738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  163.795562 s]
+<4>[  163.795562 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  165.841339 s]
+<7>[  165.841400 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  165.841461 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  165.841522 s]
+<7>[  165.841552 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  165.841613 s] Dump buffer ff681000 size 8:
+<7>[  165.841674 s]
+<7>[  165.841705 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  165.841766 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  165.842590 s]
+<4>[  165.842590 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  167.889343 s]
+<7>[  167.889404 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  167.889465 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  167.889495 s]
+<7>[  167.889556 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  167.889617 s] Dump buffer ff681000 size 8:
+<7>[  167.889648 s]
+<7>[  167.889709 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  167.889770 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  167.890563 s]
+<4>[  167.890563 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  169.937316 s]
+<7>[  169.937377 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  169.937438 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  169.937500 s]
+<7>[  169.937530 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  169.937591 s] Dump buffer ff681000 size 8:
+<7>[  169.937652 s]
+<7>[  169.937683 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  169.937744 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  169.938751 s]
+<4>[  169.938781 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  171.985321 s]
+<7>[  171.985382 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  171.985443 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  171.985504 s]
+<7>[  171.985534 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  171.985595 s] Dump buffer ff681000 size 8:
+<7>[  171.985656 s]
+<7>[  171.985687 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  171.985748 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  171.986572 s]
+<4>[  171.986572 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  174.033325 s]
+<7>[  174.033386 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  174.033447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  174.033508 s]
+<7>[  174.033538 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  174.033599 s] Dump buffer ff681000 size 8:
+<7>[  174.033660 s]
+<7>[  174.033691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  174.033752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  174.034545 s]
+<4>[  174.034576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  174.710327 s]
+<7>[  174.710418 s] 664 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  174.710479 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  176.081329 s]
+<7>[  176.081390 s] 1385 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  176.081451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  176.q081512 s]
+<7>[  176.081542 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  176.081604 s] Dump buffer ff681000 size 8:
+<7>[  176.081665 s]
+<7>[  176.081695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  176.081756 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  176.082519 s]
+<4>[  176.082550 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  178.129333 s]
+<7>[  178.129394 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  178.129455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  178.129516 s]
+<7>[  178.129547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  178.129608 s] Dump buffer ff681000 size 8:
+<7>[  178.129669 s]
+<7>[  178.129699 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  178.129760 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  178.130584 s]
+<4>[  178.130615 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  180.178314 s]
+<7>[  180.178375 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  180.178436 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  180.178497 s]
+<7>[  180.178527 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  180.178588 s] Dump buffer ff681000 size 8:
+<7>[  180.178649 s]
+<7>[  180.178680 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  180.178741 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  180.179565 s]
+<4>[  180.179565 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  182.226318 s]
+<7>[  182.226379 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  182.226440 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  182.226501 s]
+<7>[  182.226531 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  182.226593 s] Dump buffer ff681000 size 8:
+<7>[  182.226654 s]
+<7>[  182.226684 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  182.226745 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  182.227539 s]
+<4>[  182.227569 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  184.275329 s]
+<7>[  184.275390 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  184.275451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  184.275482 s]
+<7>[  184.275543 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  184.275604 s] Dump buffer ff681000 size 8:
+<7>[  184.275634 s]
+<7>[  184.275695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  184.275756 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  184.276550 s]
+<4>[  184.276550 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  186.323333 s]
+<7>[  186.323394 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  186.323455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  186.323486 s]
+<7>[  186.323547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  186.323608 s] Dump buffer ff681000 size 8:
+<7>[  186.323638 s]
+<7>[  186.323699 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  186.323730 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  186.324554 s]
+<4>[  186.324554 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  188.370330 s]
+<7>[  188.370391 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  188.370452 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  188.370513 s]
+<7>[  188.370544 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  188.370605 s] Dump buffer ff681000 size 8:
+<7>[  188.370666 s]
+<7>[  188.370697 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  188.370880 s] [   0]: 02 q01 00 00 81 00 00 00                           ........
+<4>[  188.371551 s]
+<4>[  188.371582 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  190.418334 s]
+<7>[  190.418395 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  190.418457 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  190.418487 s]
+<7>[  190.418548 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  190.418609 s] Dump buffer ff681000 size 8:
+<7>[  190.418640 s]
+<7>[  190.418701 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  190.418731 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  190.419525 s]
+<4>[  190.419525 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  192.466339 s]
+<7>[  192.466369 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  192.466430 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  192.466491 s]
+<7>[  192.466552 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  192.466613 s] Dump buffer ff681000 size 8:
+<7>[  192.466644 s]
+<7>[  192.466705 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  192.466735 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  192.467559 s]
+<4>[  192.467590 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  194.514343 s]
+<7>[  194.514373 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  194.514434 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  194.514495 s]
+<7>[  194.514556 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  194.514587 s] Dump buffer ff681000 size 8:
+<7>[  194.514648 s]
+<7>[  194.514678 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  194.514739 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  194.515563 s]
+<4>[  194.515594 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  194.711181 s]
+<7>[  194.711273 s] 195 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  194.711334 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  196.562316 s]
+<7>[  196.562377 s] 1854 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  196.562438 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  196.562500 s]
+<7>[  196.562530 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  196.562591 s] Dump buffer ff681000 size 8:
+<7>[  196.562652 s]
+<7>[  196.562683 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  196.562744 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  196.563537 s]
+<4>[  196.563568 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  198.610321 s]
+<7>[  198.610382 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  198.610443 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  198.610504 s]
+<7>[  198.610534 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  198.610595 s] Dump buffer ff681000 size 8:
+<7>[  198.610656 s]
+<7>[  198.610687 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  198.610748 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  198.611541 s]
+<4>[  198.611572 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  200.658325 s]
+<7>[  200.658386 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  200.658447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  200.658508 s]
+<7>[  200.658538 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  200.658599 s] Dump buffer ff681000 size 8:
+<7>[  200.658660 s]
+<7>[  200.658691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  200.658752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+q4>[  200.659545 s]
+<4>[  200.659576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  202.706329 s]
+<7>[  202.706390 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  202.706451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  202.706481 s]
+<7>[  202.706542 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  202.706604 s] Dump buffer ff681000 size 8:
+<7>[  202.706634 s]
+<7>[  202.706695 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  202.706726 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  202.707550 s]
+<4>[  202.707550 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  204.754333 s]
+<7>[  204.754394 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  204.754455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  204.754516 s]
+<7>[  204.754547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  204.754608 s] Dump buffer ff681000 size 8:
+<7>[  204.754669 s]
+<7>[  204.754699 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  204.754760 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  204.755584 s]
+<4>[  204.755615 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  206.802337 s]
+<7>[  206.802398 s] 2073 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  206.802459 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  206.802490 s]
+<7>[  206.802551 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  206.802612 s] Dump buffer ff681000 size 8:
+<7>[  206.802642 s]
+<7>[  206.802703 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  206.802764 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  206.803558 s]
+<4>[  206.803558 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  208.850341 s]
+<7>[  208.850372 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  208.850433 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  208.850494 s]
+<7>[  208.850524 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  208.850585 s] Dump buffer ff681000 size 8:
+<7>[  208.850646 s]
+<7>[  208.850677 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  208.850738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  208.851867 s]
+<4>[  208.851898 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  210.899322 s]
+<7>[  210.899383 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  210.899444 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  210.899505 s]
+<7>[  210.899536 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  210.899597 s] Dump buffer ff681000 size 8:
+<7>[  210.899658 s]
+<7>[  210.899688 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  210.899749 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  210.900573 s]
+<4>[  210.900604 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  212.946350 s]
+<7>[  212.946380 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  212.946441 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  212.946502 s]
+<7>[  212.946563 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  212.946624 s] Dump buffer ff681000 size 8:
+<7>[  212.946655 s]
+<7>[  212.946685 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  212.946746 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  212.947570 s]
+<4>[  212.947570 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  214.712066 s]
+<7>[  214.712158 s] 1751 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  214.712219 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  214
+.995330 s]
+<7>[  214.995391 s] 297 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  214.995452 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  214.995513 s]
+<7>[  214.995544 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  214.995605 s] Dump buffer ff681000 size 8:
+<7>[  214.995666 s]
+<7>[  214.995697 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  214.995758 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  214.996551 s]
+<4>[  214.996582 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  217.042358 s]
+<7>[  217.042388 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  217.042449 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  217.042510 s]
+<7>[  217.042572 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  217.042602 s] Dump buffer ff681000 size 8:
+<7>[  217.042663 s]
+<7>[  217.042694 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  217.042755 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  217.043518 s]
+<4>[  217.043548 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  217.112152 s]
+<7>[  217.112243 s]  68 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  217.112304 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  219.091308 s]
+<7>[  219.091369 s] 1971 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  219.091430 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  219.091491 s]
+<7>[  219.091522 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  219.091583 s] Dump buffer ff681000 size 8:
+<7>[  219.091644 s]
+<7>[  219.091674 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  219.091735 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  219.092590 s]
+<4>[  219.092620 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  221.139312 s]
+<7>[  221.139373 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  221.139434 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  221.139495 s]
+<7>[  221.139526 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  221.139587 s] Dump buffer ff681000 size 8:
+<7>[  221.139648 s]
+<7>[  221.139678 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  221.139739 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  221.140563 s]
+<4>[  221.140563 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  223.187316 s]
+<7>[  223.187377 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  223.187438 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  223.187500 s]
+<7>[  223.187530 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  223.187591 s] Dump buffer ff681000 size 8:
+<7>[  223.187652 s]
+<7>[  223.187683 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  223.187744 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  223.188568 s]
+<4>[  223.188568 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  225.235321 s]
+<7>[  225.235382 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  225.235443 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  225.235504 s]
+<7>[  225.235534 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  225.235595 s] Dump buffer ff681000 size 8:
+<7>[  225.235656 s]
+<7>[  225.235687 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  225.235748 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  225.236572 s]
+<4>[  225.236602 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  227.283325 s]
+<7>[  227.283386 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  227.283447 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  227.283508 s]
+<7>[  227.283538 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  227.283599 s] Dump buffer ff681000 size 8:
+<7>[  227.283660 s]
+<7>[  227.283691 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  227.283752 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  227.284576 s]
+<4>[  227.284576 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  229.331329 s]
+<7>[  229.331359 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  229.331420 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  229.331481 s]
+<7>[  229.331542 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  229.331604 s] Dump buffer ff681000 size 8:
+<7>[  229.331634 s]
+<7>[  229.331665 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  229.331726 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  229.332641 s]
+<4>[  229.332672 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  231.379333 s]
+<7>[  231.379364 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  231.379425 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  231.379486 s]
+<7>[  231.379547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  231.379577 s] Dump buffer ff681000 size 8:
+<7>[  231.379638 s]
+<7>[  231.379669 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  231.379730 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  231.380584 s]
+<4>[  231.380615 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  233.427307 s]
+<7>[  233.427368 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  233.427429 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  233.427490 s]
+<7>[  233.427520 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  233.427581 s] Dump buffer ff681000 size 8:
+<7>[  233.427642 s]
+<7>[  233.427673 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  233.427734 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  233.428527 s]
+<4>[  233.428558 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  235.475311 s]
+<7>[  235.475372 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  235.475433 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  235.475494 s]
+<7>[  235.475524 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  235.475585 s] Dump buffer ff681000 size 8:
+<7>[  235.475646 s]
+<7>[  235.475677 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  235.475738 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  235.476562 s]
+<4>[  235.476593 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  237.113037 s]
+<7>[  237.113067 s] 1649 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  237.113128 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  237.523315 s]
+<7>[  237.523376 s] 400 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  237.523437 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  237.523498 s]
+<7>[  237.523529 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  237.523590 s] Dump buffer ff681000 size 8:
+<7>[  237.523651 s]
+<7>[  237.523681 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  237.523742 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  237.524566 s]
+<4>[  237.524566 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  239.571319 s]
+<7>[  239.571380 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  239.571441 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  239.571502 s]
+<7>[  239.571533 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  239.571594 s] Dump buffer ff681000 size 8:
+<7>[  239.571655 s]
+<7>[  239.571685 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  239.571746 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  239.572570 s]
+<4>[  239.572570 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  241.619323 s]
+<7>[  241.619384 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  241.619445 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  241.619506 s]
+<7>[  241.619537 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  241.619598 s] Dump buffer ff681000 size 8:
+<7>[  241.619659 s]
+<7>[  241.619689 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  241.619750 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  241.620605 s]
+<4>[  241.620635 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  243.668304 s]
+<7>[  243.668365 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  243.668426 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  243.668487 s]
+<7>[  243.668518 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  243.668579 s] Dump buffer ff681000 size 8:
+<7>[  243.668640 s]
+<7>[  243.668670 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  243.668731 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  243.669555 s]
+<4>[  243.669586 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  245.716308 s]
+<7>[  245.716369 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  245.716430 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  245.716491 s]
+<7>[  245.716522 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  245.716583 s] Dump buffer ff681000 size 8:
+<7>[  245.716644 s]
+<7>[  245.716674 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  245.716735 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  245.717559 s]
+<4>[  245.717559 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  247.764312 s]
+<7>[  247.764373 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  247.764434 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  247.764495 s]
+<7>[  247.764526 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  247.764587 s] Dump buffer ff681000 size 8:
+<7>[  247.764648 s]
+<7>[  247.764678 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  247.764739 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  247.765533 s]
+<4>[  247.765563 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  249.811309 s]
+<7>[  249.811370 s] 2063 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  249.811431 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  249.811492 s]
+<7>[  249.811523 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  249.811584 s] Dump buffer ff681000 size 8:
+<7>[  249.811645 s]
+<7>[  249.811676 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  249.811737 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  249.812530 s]
+<4>[  249.812561 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  251.859344 s]
+<7>[  251.859375 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  251.859436 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  251.859497 s]
+<7>[  251.859558 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  251.859588 s] Dump buffer ff681000 size 8:
+<7>[  251.859649 s]
+<7>[  251.859680 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  251.859741 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  251.860565 s]
+<4>[  251.860565 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  253.907318 s]
+<7>[  253.907379 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  253.907440 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  253.907501 s]
+<7>[  253.907531 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  253.907592 s] Dump buffer ff681000 size 8:
+<7>[  253.907653 s]
+<7>[  253.907684 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  253.907745 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  253.908538 s]
+<4>[  253.908569 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  255.956329 s]
+<7>[  255.956359 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  255.956451 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  255.956481 s]
+<7>[  255.956542 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  255.956604 s] Dump buffer ff681000 size 8:
+<7>[  255.956634 s]
+<7>[  255.956665 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  255.956726 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  255.957550 s]
+<4>[  255.957550 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  257.113891 s]
+<7>[  257.113983 s] 1156 ms:  drivers/jusb/adapt/net_dev.c:1658:
+<7>[  257.114044 s] USB_ETH_DrvSetHostAssembleParam: g_net_callbacks_t is 0x0
+<7>[  258.004333 s]
+<7>[  258.004364 s] 893 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  258.004455 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  258.004486 s]
+<7>[  258.004547 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  258.004608 s] Dump buffer ff681000 size 8:
+<7>[  258.004638 s]
+<7>[  258.004669 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  258.004730 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  258.005554 s]
+<4>[  258.005584 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  260.053314 s]
+<7>[  260.053375 s] 2039 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  260.053436 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  260.053497 s]
+<7>[  260.053527 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  260.053588 s] Dump buffer ff681000 size 8:
+<7>[  260.053649 s]
+<7>[  260.053680 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  260.053741 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  260.054656 s]
+<4>[  260.054656 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  262.101318 s]
+<7>[  262.101379 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  262.101440 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  262.101501 s]
+<7>[  262.101531 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  262.101593 s] Dump buffer ff681000 size 8:
+<7>[  262.101654 s]
+<7>[  262.101684 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  262.101745 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  262.102569 s]
+<4>[  262.102569 s]  #########  power_on_status_get = 0x504F4643 ########
+<7>[  264.148315 s]
+<7>[  264.148376 s] 2048 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:629:
+<7>[  264.148437 s] Incorrect setup size: size = 0 TD=0x0a000040
+<7>[  264.148498 s]
+<7>[  264.148529 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  264.148590 s] Dump buffer ff681000 size 8:
+<7>[  264.148651 s]
+<7>[  264.148681 s]   0 ms:  drivers/jusb/jslave/dcd/dcd_syn_hs.c:631:
+<7>[  264.148742 s] [   0]: 02 01 00 00 81 00 00 00                           ........
+<4>[  264.149566 s]
+<4>[  264.149597 s]  #########  power_on_status_get = 0x504F4643 ########

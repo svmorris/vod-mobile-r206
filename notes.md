@@ -73,3 +73,138 @@ UnSec_boot!
 ```
 
 Its nice to see that despite secure boot being an option, its not enabled.
+
+
+
+
+I managed to get the tx line working and i got the following new output:
+```
+onchip
+UDP
+NF_boot!
+Ecc Type:0x00000002
+Ecc Test Reg val:0x00000001
+Ecc check ok!
+UnSec_boot!
+press a or c to enable uart:
+!!!!!!!!!!!!!!!!!!!begin recieve A or a!!!
+00000000!!!!!!!!!!!!!!!!!!!after recieve A or a!!!
+19830609
+
+ ############ PowerExchange(Boot) address =  0x2FFE0008
+ 0x00 =  0x95ECF333
+ 0x04 =  0xE5C1AB02
+ 0x08 =  0xB6D17F29
+ 0x0C =  0x7CED8D5F
+ 0x10 =  0xFC24E28F
+
+ power : warm flag   0x557CBB43
+ power : cold reset
+ boot invalid condition and power off
+
+ Power off !
+
+ Power off : dead-loop.....
+```
+
+Apparently this just detected if the battery wsa not connected. After connecting a battery and doing the same I get a root shell.
+
+
+```
+
+ls
+var
+bin
+CDROMISO
+online
+app
+config
+cache
+sdcard
+acct
+mnt
+vendor
+d
+etc
+ueventd.rc
+ueventd.goldfish.rc
+system
+sys
+sbin
+proc
+init.rc
+init.goldfish.rc
+init
+default.prop
+data
+root
+dev
+```
+
+This gets quite interesting
+
+```
+# cat default.prop
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+persist.service.adb.enable=1
+```
+
+This default.prop file is common to android or at least the android init system. Apparently some SoCs can use the android init system without android, but this might just be running android.
+
+
+Its interesting to me how all of these values seem to be in their least secure states.
+
+```
+ro.secure = 0
+```
+non-secure build. This usually disables certain ADB accesses and SELinux stuff if they exist
+
+
+```
+ro.debuggable=1
+```
+Enables debugging features like ADB root
+
+
+```
+persist.service.adb.enable=1
+```
+keeps adb services running
+
+
+```
+ro.allow.mock.location=1
+```
+this last one is just interesting
+
+
+### Commands
+
+Initially it looked like there werent many commands on the system, but 
+turns out they are stored in /system/bin. Not sure why
+```
+conntrack ionice notify chown schedtop
+printenv iptables6 run-as ioctl mount
+iftop lsof sh mv ps rmdir ln sendevent
+lsmod id lrz iwpriv iptables rmmod umount
+wpa_supplicant logcat hd log rm dmesg renice
+setconsole wifi_brcm ip gzip ls wipe wifiwpa_cli
+ecall route sleep openssl smd mkdir logwrapper
+sdcard ssltest reboot df nandread toolbox geprop
+cmp linker setprop dd vmstat uptime
+netstat busybox date stop wpa_cli newfs_msdos
+kill sync watchprops cat chmod top insmod
+start ifconfig getevent
+
+```
+
+# Other information
+
+
+### Power button
+Based on the UART output, it seems that simply clicking the power button during operation restarts the board. The reset button does nothing when single pressed.
