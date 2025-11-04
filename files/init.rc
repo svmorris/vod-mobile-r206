@@ -102,22 +102,22 @@ on fs
     mount yaffs2 mtd@/yaffs1 /system ro remount
     mkdir /app
     mkdir /online
-# BEINDTS2012052107467- c203521-2012-5-21-modified
+# BEIN¡ªDTS2012052107467- c203521-2012-5-21-modified
     mount yaffs2 mtd@/yaffs2 /app
     mkdir /app/webroot
     mount yaffs2 mtd@/yaffs6 /app/webroot
-# ENDDTS2012052107467- c203521-2012-5-21-modified
+# END¡ªDTS2012052107467- c203521-2012-5-21-modified
     mount yaffs2 mtd@/yaffs4 /data
 #BEGIN DTS2012073104927 00206465 qiaoyichuan 2012-7-31 added/modified
  # mount yaffs2 mtd@/yaffs5 /online
 #END  DTS2012073104927 00206465 qiaoyichuan 2012-7-31 added/modified
-# BEGINDTS2012072307185- c203521-2012-7-23-modified
-# BEGINDTS2012072604125- c203521-2012-7-26-modified
+# BEGIN¡ªDTS2012072307185- c203521-2012-7-23-modified
+# BEGIN¡ªDTS2012072604125- c203521-2012-7-26-modified
     mkdir /CDROMISO
     mount yaffs2 mtd@/CDROMISO /CDROMISO
     mount yaffs2 mtd@/CDROMISO /CDROMISO ro remount
-# ENDDTS2012072604125- c203521-2012-7-26-modified
-# ENDDTS2012072307185- c203521-2012-7-23-modified
+# END¡ªDTS2012072604125- c203521-2012-7-26-modified
+# END¡ªDTS2012072307185- c203521-2012-7-23-modified
 #    mount yaffs2 mtd@/yaffs2 /data nosuid nodev
 #    mount yaffs2 mtd@cache /cache nosuid nodev
 service insmodko /system/etc/insmodko.sh
@@ -467,3 +467,4 @@ service smsclan /system/bin/lan9730.sh
     oneshot
 #end: added for lan9730 20120510
 #End: modified by d00117529 for DTS2012062008033 20120626
+#

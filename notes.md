@@ -203,6 +203,29 @@ start ifconfig getevent
 
 ```
 
+# Whats next?
+
+While there are a lot of interesting things on the device, I'm not really sure what to do with it as is. I decided to have two (arguably 3) projects I'm trying out on it.
+
+First I want to get copies of the files on the device and the firmware. Next, I want to see if I can turn it into a functioning openwrt router.
+
+
+## Getting the files
+At first I am trying to make a file downloading program. This would simply run a shell command to get the contents of the file on stdout (cat or dd), then using a c script it captures the bytes and writes them to a file. This could allow me to get individual files off the machine as well as to maybe even read the firmware with dd.
+
+I'm writing this program both for this project but also for future ones.
+
+
+
+## SD card approach
+I realised that the system expects an sd card to be attached which it tries to automount. The device itself does not have an SD card reader, but it has a few pins that suspiciously look like one. I've ordered a reader that I will try fit to it when it arrives. This could allow me to dd the entire contents of the flash chip and have a more reliable copy of the firmware.
+
+
+
+
+
+
+
 # Other information
 
 
