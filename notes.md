@@ -221,6 +221,16 @@ I'm writing this program both for this project but also for future ones.
 I realised that the system expects an sd card to be attached which it tries to automount. The device itself does not have an SD card reader, but it has a few pins that suspiciously look like one. I've ordered a reader that I will try fit to it when it arrives. This could allow me to dd the entire contents of the flash chip and have a more reliable copy of the firmware.
 
 
+Actually managed to solder up the sd card. Currently however its not being recognised as an SD card. 
+
+The device is being recognised fine, but the kernel is categorising it as a SDIO device. Likely a different way of connecting hardware modules that use the same interface as SD.
+
+Currently I am looking into how to get the kernel to re-categorise this as a storage medium. There are two things that could cause the issue, one is fixable the other isnt.
+
+1. This might just be an issue on the device tree. I could fix this.
+
+2. The kernel might not be compiled with support for full SD cards.
+    If this is the case, then I can't change this until I can load my own OS onto this.
 
 
 
