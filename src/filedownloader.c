@@ -62,6 +62,7 @@ int main(int argc, char **argv)
 
     // If you need to change the command which is run on the device, do it here
     sprintf(command, "dd if=%s of=/proc/self/fd/1 2>/dev/null\n", argv[1]);
+    /* sprintf(command, "nandread -d %s \n", argv[1]); */
     write(fd, command, strlen(command));
 
 

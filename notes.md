@@ -214,7 +214,31 @@ First I want to get copies of the files on the device and the firmware. Next, I 
 At first I am trying to make a file downloading program. This would simply run a shell command to get the contents of the file on stdout (cat or dd), then using a c script it captures the bytes and writes them to a file. This could allow me to get individual files off the machine as well as to maybe even read the firmware with dd.
 
 I'm writing this program both for this project but also for future ones.
+I'm working on this approach approach in paralel.
 
+I have now finished writing a c file that can download anything, I am not yet sure how much data loss there might be.
+
+Using the script approach, I managed to get a dump of the smallest flash chip on the device. (/app)
+
+```binwalk ./mtd1.dump
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             YAFFS filesystem, little endian
+6144          0x1800          ELF, 32-bit LSB shared object, ARM, version 1 (SYSV)
+116329        0x1C669         Base64 standard index table
+121034        0x1D8CA         XML document, version: "1.0"
+139650        0x22182         ELF, 32-bit LSB shared object, ARM, version 1 (SYSV)
+378095        0x5C4EF         CRC32 polynomial table, little endian
+382204        0x5D4FC         CRC32 polynomial table, big endian
+386328        0x5E518         Copyright string: "Copyright 1995-2004 Jean-loup Gailly "
+391271        0x5F867         Copyright string: "Copyright 1995-2005 Mark Adler "
+396155        0x60B7B         Base64 standard index table
+397119        0x60F3F         DES SP2, little endian
+398143        0x6133F         CRC32 polynomial table, little endian
+```
+
+Binwalk can't extract yaffs partitions, but other tools can.
 
 
 ## SD card approach
@@ -248,3 +272,76 @@ Need to check the same for other disks as well.
 
 ### Power button
 Based on the UART output, it seems that simply clicking the power button during operation restarts the board. The reset button does nothing when single pressed.
+
+
+
+### Mounted partitions
+
+These are the partitions being mounted in init.rc
+```
+# mount mtd partitions
+    # Mount /system rw first to give the filesystem a chance to save a checkpoint
+    mount yaffs2 mtd@/yaffs1 /system
+    mount yaffs2 mtd@/yaffs1 /system ro remount
+    mkdir /app
+    mkdir /online
+# BEIN¡ªDTS2012052107467- c203521-2012-5-21-modified
+    mount yaffs2 mtd@/yaffs2 /app
+    mkdir /app/webroot
+    mount yaffs2 mtd@/yaffs6 /app/webroot
+# END¡ªDTS2012052107467- c203521-2012-5-21-modified
+    mount yaffs2 mtd@/yaffs4 /data
+#BEGIN DTS2012073104927 00206465 qiaoyichuan 2012-7-31 added/modified
+ # mount yaffs2 mtd@/yaffs5 /online
+#END  DTS2012073104927 00206465 qiaoyichuan 2012-7-31 added/modified
+# BEGIN¡ªDTS2012072307185- c203521-2012-7-23-modified
+# BEGIN¡ªDTS2012072604125- c203521-2012-7-26-modified
+    mkdir /CDROMISO
+    mount yaffs2 mtd@/CDROMISO /CDROMISO
+    mount yaffs2 mtd@/CDROMISO /CDROMISO ro remount
+# END¡ªDTS2012072604125- c203521-2012-7-26-modified
+# END¡ªDTS2012072307185- c203521-2012-7-23-modified
+#    mount yaffs2 mtd@/yaffs2 /data nosuid nodev
+#    mount yaffs2 mtd@cache /cache nosuid nodev
+service insmodko /system/etc/insmodko.sh
+    oneshot
+```
+
+
+Contents of `/proc/mounts`:
+Android equivalent of `etc/fstab` I think
+```
+ cat /proc/mounts
+rootfs / rootfs rw,relatime 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+/dev/block/mtdblock0 /system yaffs2 ro,relatime 0 0
+/dev/block/mtdblock1 /app yaffs2 rw,relatime 0 0
+/dev/block/mtdblock5 /app/webroot yaffs2 rw,relatime 0 0
+/dev/block/mtdblock3 /data yaffs2 rw,relatime 0 0
+/dev/block/mtdblock4 /CDROMISO yaffs2 ro,relatime 0 0
+```
+
+
+Contents of `/proc/mtd`
+```
+dev:    size   erasesize  name
+mtd0: 00b00000 00020000 "/yaffs1"
+mtd1: 00500000 00020000 "/yaffs2"
+mtd2: 00400000 00020000 "/yaffs3"
+mtd3: 00600000 00020000 "/yaffs4"
+mtd4: 03060000 00020000 "/CDROMISO"
+mtd5: 01700000 00020000 "/yaffs6"
+```
+
+
+Disk sizes
+```
+# df
+Filesystem             Size   Used   Free   Blksize
+/system                 10M     8M     1M   4096
+/app                     4M     4M   608K   4096
+/app/webroot            22M    16M     6M   4096
+/data                    5M     1M     4M   4096
+/CDROMISO               48M    44M     3M   4096
+```
