@@ -233,7 +233,14 @@ Currently I am looking into how to get the kernel to re-categorise this as a sto
     If this is the case, then I can't change this until I can load my own OS onto this.
 
 
+I am currently struggling to find the device tree file. It could just be somewhere on the device, but since there is no /boot directory, it could also just not be exposed to the shell for some fake security reasons.
 
+Thankfully, this tool called nandread is available, which might let me find the boot directory regardless.
+
+
+There are 6 'disks'. Since I don't know which one could have the boot folder in it, I started with mtd2 (yaffs3), since that is never mounted in init.rc. This however can be eliminated as it seems to be entirely empty/erased.
+
+Need to check the same for other disks as well.
 
 
 # Other information

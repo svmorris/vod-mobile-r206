@@ -1,3 +1,6 @@
+#define _POSIX_C_SOURCE 200809L
+#define _DEFAULT_SOURCE
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,6 +13,12 @@
 
 int main(int argc, char **argv)
 {
+
+    if (argc != 2)
+    {
+        fprintf(stderr, "Usage: %s <path_to_file>", argv[0]);
+        return -1;
+    }
 
     int fd = open(PORT, O_RDWR | O_NOCTTY | O_SYNC);
     if (fd < 0)
@@ -26,25 +35,20 @@ int main(int argc, char **argv)
         return -2;
     }
 
+    cfmakeraw(&tty);
+
     cfsetospeed(&tty, B115200);
     cfsetispeed(&tty, B115200);
 
-    // NOTE: if I'm getting bad readings, the issue is likely here
-    tty.c_cflag = (tty.c_cflag & ~CSIZE) | CS8;   // 8-bit chars
-    tty.c_iflag &= ~IGNBRK;                       // disable break processing
-    tty.c_lflag = 0;                              // no signaling chars, no echo
-    tty.c_oflag = 0;                              // no remapping, no delays
-    tty.c_cc[VMIN]  = 0;                          // non-blocking read
-    tty.c_cc[VTIME] = 5;                          // 0.5 sec read timeout
+    tty.c_cc[VMIN]  = 0;
+    tty.c_cc[VTIME] = 5;
+    tty.c_iflag &= ~(IXON | IXOFF | IXANY);
 
-    tty.c_iflag &= ~(IXON | IXOFF | IXANY);       // shut off xon/xoff ctrl
-    tty.c_cflag |= (CLOCAL | CREAD);              // ignore modem controls, enable reading
-    tty.c_cflag &= ~(PARENB | PARODD);            // no parity
-    tty.c_cflag &= ~CSTOPB;                       // 1 stop bit
 
-    #ifdef CRTSCTS
-        tty.c_cflag &= ~CRTSCTS;    // disable hardware flow control
-    #endif
+    /* disable hardware flow control if defined */
+#ifdef CRTSCTS
+        tty.c_cflag &= ~CRTSCTS;
+#endif
 
 
     if (tcsetattr(fd, TCSANOW, &tty) != 0) {
@@ -52,22 +56,58 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    const char *msg = "cat /init.rc\n";
-    write(fd, msg, strlen(msg));
+    size_t user_path_len = sizeof(argv[1]);
+    char *command = malloc(100+user_path_len);
+
+
+    // If you need to change the command which is run on the device, do it here
+    sprintf(command, "dd if=%s of=/proc/self/fd/1 2>/dev/null\n", argv[1]);
+    write(fd, command, strlen(command));
+
+
+    // You can control how the output file is written here
+    char *filename = strrchr(argv[1], '/');
+    if (filename)
+        filename++;
+    else
+        filename = argv[1];
+
+
+    printf("filename: %s\n", filename);
+    FILE *userfile;
+    userfile = fopen(filename, "wb");
+    if (!userfile)
+    {
+        perror("Error while creating local file");
+        return -2;
+    }
+
+
+    // If you are missing the first line of all transmits
+    // comment out this next check
+    // Most UART ttys echo back your command before running it
+    // if its not the case on yours then it needs to be commented
+    // out.
+    int n = 1;
+    char c = ' ';
+    while (c != '\n' && n > 0)
+        n = read(fd, &c, 1);
+    // End of bit to comment out
 
 
     char buffer[256];
     while (1)
     {
-        int n = read(fd, buffer, sizeof(buffer));
+        n = read(fd, buffer, sizeof(buffer));
         if (n > 0)
         {
-            fwrite(buffer, 1, n, stdout);
-            fflush(stdout);
+            fwrite(buffer, 1, n, userfile);
+            fflush(userfile);
         }
         else
             return 0;
     }
+    fclose(userfile);
     close(fd);
     return 0;
 }
